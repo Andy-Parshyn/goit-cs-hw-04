@@ -1,0 +1,3 @@
+multiprocessing.Pool and concurrent.futures.ProcessPoolExecutor manage a fixed
+set of worker processes and distribute tasks with map or submit.
+ThreadPoolExecutor does the same for threads.

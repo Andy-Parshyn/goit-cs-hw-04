@@ -1,0 +1,3 @@
+The Global Interpreter Lock (GIL) is a mutex that protects access to Python objects.
+It simplifies memory management but limits parallelism of threads.
+Free-threaded builds of Python remove the GIL at the cost of some single-thread speed.

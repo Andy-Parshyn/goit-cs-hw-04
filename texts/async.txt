@@ -1,0 +1,3 @@
+asyncio runs many coroutines on a single thread with an event loop.
+It is good for network I/O, but a blocking call inside a coroutine stalls the whole loop.
+For blocking code, run_in_executor hands the work to a thread pool.

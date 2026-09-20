@@ -1,0 +1,4 @@
+A process has its own memory space and its own interpreter instance.
+The multiprocessing module starts separate Python processes and lets them
+exchange data through a Queue, a Pipe or shared memory.
+Each process bypasses the GIL, which makes this approach useful for CPU bound tasks.

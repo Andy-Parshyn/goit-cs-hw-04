@@ -1,0 +1,3 @@
+Processes do not share memory by default. multiprocessing.Value and Array
+create shared ctypes objects, and Manager gives proxied dict and list objects.
+Copying large objects between processes goes through pickle and can be slow.

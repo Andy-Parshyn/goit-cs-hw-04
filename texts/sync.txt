@@ -1,0 +1,3 @@
+Shared state between workers needs synchronization: Lock, RLock, Semaphore, Event.
+Without a lock two threads can interleave writes and corrupt a dictionary or a counter.
+A Queue is thread-safe and process-safe, so it is often the simplest way to pass results.

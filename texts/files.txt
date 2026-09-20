@@ -1,0 +1,3 @@
+Reading a file can raise FileNotFoundError, PermissionError or UnicodeDecodeError.
+Handling these errors in the worker lets the rest of the batch finish.
+Small text files are read quickly, so the overhead of starting a process may dominate.

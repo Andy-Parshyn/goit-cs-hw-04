@@ -1,0 +1,4 @@
+A thread is the smallest unit of execution the operating system schedules.
+In Python, the threading module gives a high level API over OS threads.
+Because of the GIL, only one thread runs Python bytecode at a time,
+so threads help with I/O bound work and not with CPU bound work.
